@@ -66,22 +66,3 @@ it('should render first image', (t) => {
     const firstImg = container.querySelector('img');
     t.is(firstImg.src, 'http://abc1/a');
 });
-
-// it('should render first image', (t) => {
-//     const container = dom.window.document.createElement('div');
-
-//     const c = new Carousel(dom.window, {
-//         $target: container,
-//         images: ['abc1', 'def2'],
-//     });
-
-// });
-
-// it('should switch image ', (t) => {
-//     const container = dom.window.document.createElement('div');
-
-//     const c = new Carousel(dom.window, {
-//         $target: container,
-//         images: ['abc1', 'def2'],
-//     });
-// });
